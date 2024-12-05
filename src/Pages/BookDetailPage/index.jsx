@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import axios from 'axios';
-import BookDetails from '../../entities/Book/BookDetails';
+import BookDetails from '../../Entities/Book/BookDetails';
 import Container from '../../Shared/ui/Container';
 
 const BookDetailPage = () => {
